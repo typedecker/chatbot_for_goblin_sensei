@@ -26,7 +26,7 @@ nest_asyncio.apply()
 import discord, os
 
 lim = 1000
-TOKEN = 'MTE4NTI0NzkxNTAyODAwNDkyNA.Gh0GQh.vEdMN6-gvazRv7o6fa-M3aaGbdplXV5y4LFtyc'
+TOKEN = 'BOT_TOKEN'
 
 intents = discord.Intents(guilds = True, dm_messages = True, members = True, messages = True, guild_messages = True, invites = True, message_content = True)
 client = discord.Client(chunk_guilds_at_startup = True, intents = intents)
